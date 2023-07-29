@@ -1,0 +1,7 @@
+services:
+  web: 
+    build: .
+    stdin_open: true
+    tty: true
+    ports: 
+      - "4400:4400"
